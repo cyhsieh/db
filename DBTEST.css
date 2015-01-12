@@ -1,0 +1,15 @@
+html {
+	background-color:#d3d3d3;
+	font-family:微軟正黑體;}
+
+#top {
+	float:left;
+	width:20%;}
+
+#contentTitle {
+	width:80%;
+	margin:0px auto;}
+	
+#mainContent {
+	float:left;
+	width:80%;}
