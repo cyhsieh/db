@@ -44,6 +44,7 @@ if (!empty($_POST['item']) && !empty($_POST['amount']))
 <html>
 <head>
 	<meta charset="UTF-8">
+	<!---->
 	<link rel = "StyleSheet" type = "text/css" href = "DBTEST.css">
 	<title>DB TEST</title>
 </head>

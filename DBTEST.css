@@ -1,6 +1,29 @@
 html {
-	background-color:#d3d3d3;
+	background-color:#B8E6E6;
 	font-family:微軟正黑體;}
+
+table{
+	padding: 15px;
+}
+	
+table,td{
+	background-color:#E9FFFF;
+	//border: solid #777777;
+	border-bottom:dashed #333333 1px;
+	border-collapse:collapse;
+	height:50px;
+	border-radius:10px;
+	padding: 10px;
+}
+
+table{
+	padding: 15px;
+}
+
+a{
+	text-decoration:none;
+	color:#BACCCC;
+}
 
 #top {
 	float:left;
