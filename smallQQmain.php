@@ -73,8 +73,8 @@ while ($row = mysqli_fetch_array($result)){
 // foreach($row = mysqli_fetch_array($result)){
 	echo "<tr><td>$row[1] </td>
 						<td>$row[2]</td><td>$row[3]</td><td>$row[4]</td>
-						<td><a href = 'QQdelete.php?del={$row['記事編號']}'>刪除</a></td>
-						<td><a href = 'QQedit.php?edit={$row['記事編號']}'>修改</a></td></tr>";
+						<td><a href = 'delete.php?del={$row['記事編號']}'>刪除</a></td>
+						<td><a href = 'edit.php?edit={$row['記事編號']}'>修改</a></td></tr>";
 	// echo $row;
 	}
 echo '</table></div>';

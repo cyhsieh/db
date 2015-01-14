@@ -32,20 +32,10 @@ else
 <head>
 	<meta charset = "utf-8">
 	<title>修改記事</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 </head>
-
-<script>
-$(function() {
-    $("#form input").keypress(function(event){      
-        if (event.keyCode == 13) $("#form").submit();
-    });
-});
-</script>
-
 <body>
 
-	<form id = "form" method = "post" action = "update.php">
+	<form method = "post" action = "update.php">
 		日期：<input name = "time" value = "<?php echo $row['日期時間']; ?>"><br>
 		項目：<input name = "item" value = "<?php echo $row['項目']; ?>"> <br>
 		金額：<input name = "amount" value = "<?php echo $row['金額']; ?>"> <br>
