@@ -1,0 +1,29 @@
+html,body{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	text-align:center;
+	//vertical-align:middle;
+}
+
+img{
+	display: inline;
+	opacity: .5;
+}
+
+img:hover{
+	opacity: 1;
+}
+
+#floater{
+	float:left;
+	height:50%;
+	margin-bottom:-150px;
+	width:1px;
+}
+
+#img{
+	clear:both;
+	height:300px;
+	position:relative;
+}

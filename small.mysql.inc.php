@@ -3,7 +3,7 @@
 
 $dbserver = "localhost";
 $dbuser = "root";
-$dbpass = "aabbabc";
+$dbpass = "";
 $dbname = "daily";
 
 header('content-type: text/html; charset=utf-8');
